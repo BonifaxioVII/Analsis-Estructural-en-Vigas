@@ -12,7 +12,7 @@ A pesar del funcionamiento aparentemente normal y correcto del programa, se pres
 2. A pesar de que se usaron métodos de diferencias finitas para la resolución del problema, no se tiene claro como fueron solucionadas.
 3. La interacción con el usuario es bruzca y posiblemente abierta a errores.
 4. El programa no está optimizado.
-5. El programa es bastante restrictivo.
+5. El programa es bastante restrictivo:
   - No se tiene en cuenta la forma de la sección transversal
   - No se tiene en cuenta las dimensiones de la sección transversal.
   - No se permiten cargas que no sean verticales.
@@ -21,10 +21,4 @@ A pesar del funcionamiento aparentemente normal y correcto del programa, se pres
   - No realiza un analisis de fallas.
 
 Cabe resaltar que este proyecto lo desarrollé en mis primeros años programando producto de la necesidad de un programa gratis que solucione todo (o casi todo) ejercicio de analisis estructural en vigas.
-Por tal motivo, es un proyecto que no es robuzto y deberá mejorar en varios aspectos.
-
-Se deberá realizar lo sigueinte:
-1. Documentar el método usado para desarrollar el análisis estructural en busca de errores y cosas para mejorar.
-2. Desarrollar una interfaz para el usuario.
-3. Añadir información de interes al analisis estructural.
-4. Permitir  
+Por tal motivo, que deberá mejorar en varios aspectos.
